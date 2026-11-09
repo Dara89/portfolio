@@ -173,27 +173,6 @@
     .project-media img {
       width: 100%; height: 100%; object-fit: cover; object-position: top center;
     }
-    .project-media.vora {
-      display: grid; place-items: center;
-      background:
-        radial-gradient(circle at 30% 20%, rgba(249,115,22,.35), transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(234,179,8,.2), transparent 45%),
-        #111827;
-      border-right: 1px solid var(--card-border);
-    }
-    .vora-mark {
-      text-align: center; padding: 1rem;
-    }
-    .vora-mark .logo {
-      width: 84px; height: 84px; margin: 0 auto 1rem;
-      border-radius: 22px;
-      display: grid; place-items: center;
-      background: linear-gradient(135deg, #f97316, #eab308);
-      color: #111827; font-weight: 800; font-size: 1.4rem;
-      box-shadow: 0 16px 40px rgba(249,115,22,.3);
-    }
-    .vora-mark strong { display: block; font-size: 1.2rem; }
-    .vora-mark span { color: var(--muted); font-size: .9rem; }
     .project-body { padding: 1.35rem 1.4rem; display: flex; flex-direction: column; gap: .75rem; }
     .project-body h3 { font-size: 1.2rem; }
     .project-body p { color: var(--muted); font-size: .95rem; }
@@ -297,7 +276,7 @@
           <h2 data-i18n="about_title">Sobre mí</h2>
         </div>
         <div class="about-card" data-i18n="about_body">
-          Trabajo con procesos de negocio reales y los traduzco a software usable. Me apoyo en IA para construir más rápido, y me encargo de conectar servicios, desplegar y dejar todo listo para usar. Hoy muestro tres proyectos concretos: una plataforma de envíos, una demo de bot de turnos multi-rubro y una marca de running que impulsé desde cero.
+          Trabajo con procesos de negocio reales y los traduzco a software usable. Me apoyo en IA para construir más rápido, y me encargo de conectar servicios, desplegar y dejar todo listo para usar. Hoy muestro dos proyectos concretos: una plataforma de envíos y una demo de bot de turnos multi-rubro.
         </div>
       </div>
     </section>
@@ -332,7 +311,7 @@
       <div class="wrap">
         <div class="section-head">
           <h2 data-i18n="projects_title">Proyectos</h2>
-          <p data-i18n="projects_lead">Tres trabajos reales. Sin inventar métricas: lo que ves es lo que construí.</p>
+          <p data-i18n="projects_lead">Dos trabajos reales. Sin inventar métricas: lo que ves es lo que construí.</p>
         </div>
         <div class="projects">
           <article class="project">
@@ -374,28 +353,6 @@
             </div>
           </article>
 
-          <article class="project">
-            <div class="project-media vora">
-              <div class="vora-mark">
-                <div class="logo">V</div>
-                <strong>Vora</strong>
-                <span>@voraa.uy</span>
-              </div>
-            </div>
-            <div class="project-body">
-              <h3>Vora</h3>
-              <p data-i18n="p3_body">Marca uruguaya de artículos de running que impulsé desde cero: estrategia de contenido, catálogo, precios y combos, más el control de finanzas y stock en Excel.</p>
-              <div class="tags">
-                <span class="tag" data-i18n="tag_marketing">Marketing digital</span>
-                <span class="tag" data-i18n="tag_content">Contenido</span>
-                <span class="tag" data-i18n="tag_ops">Operación</span>
-                <span class="tag">Excel</span>
-              </div>
-              <div class="project-links">
-                <a href="https://www.instagram.com/voraa.uy/" target="_blank" rel="noopener" data-i18n="p3_link">Ver Instagram →</a>
-              </div>
-            </div>
-          </article>
         </div>
       </div>
     </section>
@@ -473,7 +430,7 @@
         cta_whatsapp: "Escribime por WhatsApp",
         card_role: "Desarrollo web · Automatizaciones · Productos digitales",
         about_title: "Sobre mí",
-        about_body: "Trabajo con procesos de negocio reales y los traduzco a software usable. Me apoyo en IA para construir más rápido, y me encargo de conectar servicios, desplegar y dejar todo listo para usar. Hoy muestro tres proyectos concretos: una plataforma de envíos, una demo de bot de turnos multi-rubro y una marca de running que impulsé desde cero.",
+        about_body: "Trabajo con procesos de negocio reales y los traduzco a software usable. Me apoyo en IA para construir más rápido, y me encargo de conectar servicios, desplegar y dejar todo listo para usar. Hoy muestro dos proyectos concretos: una plataforma de envíos y una demo de bot de turnos multi-rubro.",
         services_title: "Servicios",
         services_lead: "Lo que puedo armarte, de punta a punta.",
         svc1_title: "Sitios web",
@@ -483,17 +440,12 @@
         svc3_title: "Bots y automatizaciones",
         svc3_body: "Asistentes, agendas y flujos que responden a clientes y ordenan el día a día.",
         projects_title: "Proyectos",
-        projects_lead: "Tres trabajos reales. Sin inventar métricas: lo que ves es lo que construí.",
+        projects_lead: "Dos trabajos reales. Sin inventar métricas: lo que ves es lo que construí.",
         p1_body: "Plataforma web multiusuario para gestionar envíos de un negocio. Incluye organizaciones, seguridad por fila y rastreo por agencias uruguayas (DAC, UES, Correo Uruguayo y otras).",
         p1_link: "Abrir app (requiere login) →",
         p2_title: "Demo de bot de turnos",
         p2_body: "Demo pública de un bot con agenda de turnos y bandeja omnicanal para cinco rubros: contenedores, inmobiliaria, clínica dental, veterinaria y pilates.",
         p2_link: "Probar demo →",
-        p3_body: "Marca uruguaya de artículos de running que impulsé desde cero: estrategia de contenido, catálogo, precios y combos, más el control de finanzas y stock en Excel.",
-        tag_marketing: "Marketing digital",
-        tag_content: "Contenido",
-        tag_ops: "Operación",
-        p3_link: "Ver Instagram →",
         tools_title: "Herramientas",
         tools_lead: "Con lo que trabajo día a día.",
         contact_title: "Contacto",
@@ -516,7 +468,7 @@
         cta_whatsapp: "Message me on WhatsApp",
         card_role: "Web development · Automations · Digital products",
         about_title: "About me",
-        about_body: "I work with real business processes and turn them into usable software. I use AI to build faster, and I handle connecting services, deploying, and getting everything ready to use. Here are three concrete projects: a shipping platform, a multi-industry appointment-bot demo, and a running brand I built from scratch.",
+        about_body: "I work with real business processes and turn them into usable software. I use AI to build faster, and I handle connecting services, deploying, and getting everything ready to use. Here are two concrete projects: a shipping platform and a multi-industry appointment-bot demo.",
         services_title: "Services",
         services_lead: "What I can build end to end.",
         svc1_title: "Websites",
@@ -526,17 +478,12 @@
         svc3_title: "Bots & automations",
         svc3_body: "Assistants, scheduling, and flows that reply to customers and keep operations tidy.",
         projects_title: "Projects",
-        projects_lead: "Three real pieces of work. No made-up metrics — just what I built.",
+        projects_lead: "Two real pieces of work. No made-up metrics — just what I built.",
         p1_body: "Multi-user web platform to manage a business's shipments. Includes organizations, row-level security, and tracking for Uruguayan carriers (DAC, UES, Correo Uruguayo, and others).",
         p1_link: "Open app (login required) →",
         p2_title: "Appointment bot demo",
         p2_body: "Public demo of a bot with appointment scheduling and an omnichannel inbox for five industries: containers, real estate, dental clinic, veterinary, and pilates.",
         p2_link: "Try the demo →",
-        p3_body: "Uruguayan running-gear brand I built from scratch: content strategy, catalog, pricing and bundles, plus finance and stock control in Excel.",
-        tag_marketing: "Digital marketing",
-        tag_content: "Content",
-        tag_ops: "Operations",
-        p3_link: "View Instagram →",
         tools_title: "Tools",
         tools_lead: "What I use day to day.",
         contact_title: "Contact",
